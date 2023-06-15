@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      ul {
+        list-style-type: none;
+        width: 150px;
+        /* 
+        Bunu bele yaziriqki sabit ölçüdə olsun və sözün qarşısında heçnə olmasın
+        
+        */
+      }
+      ul li {
+        padding: 10px;
+        background-color: gray;
+        margin-left: -30px;
+        /* 
+         margin-left: -30px; bunu yazmaq ile yazilisi sol terefe geldi
+          padding: 10px; her terefinden genişləndirdi
+        
+        */
+      }
+      ul li:hover {
+        background-color: red;
+        transition: 0.5s;
+        /*   transition: 0.5s; üzərinə gələndə daha yavaş dəyişsin rəngi */
+      }
+     
+      ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      ul li:nth-child(1) {
+        background-color: #0bb034;
+      }
+      i {
+        padding-right: 10px;
+        /*  padding-right: 10px; bele yazilada a nin içərisindəki icon ilə yazını daha səliqəli görnüş verməkdi
+        
+         */
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+        Navigation bar --2 novu var
+        1--Vertical--Şaqülü menyu
+        2--Horizontal--Üfüqü menyu
+        Menyuda link özəlliyi vermək üçün li təqinin içində a təqi açıb sözü a nin içində yazmaq lazımdı
+
+     -->
+    <ul>
+      <li>
+        <a href="#"><i class="fa-solid fa-house-chimney"></i>Home</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-solid fa-newspaper"></i>News</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-solid fa-address-card"></i>Contact</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-solid fa-eject"></i>About</a>
+      </li>
+    </ul>
+  </body>
+</html>

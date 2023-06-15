@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!--
+      CTRL / =Yazanda Qeyd yazmaq ucun istifade olunur
+      ALT- SHIFT- F =KODU DUZELTMEK
+    CTRL -ALT -ASAGI- YUXARI=HAMISINI SECIR
+    ALT- YUXARI -ASAGI= SETIRI DEYISMEK
+    CTRL-D = SOZU SECMEK
+    CTRL-SHIFT-K = SETIRI SILMEK
+    CTRL-ENTER=YENI SETIR
+
+
+    hr- altindan xet ceker
+    br -bir setir bosluq atar
+    strong -- qalin yazir
+    b-- qalin yazir
+    i- italik yazir yeniki yana
+    mark- Sari yazdirir
+    src(source)--menbeyi demekdir
+    center -- html yazi ve sekili ortaya getirir
+    a-:link almaq ucun istifade olunur
+    target-blank = basqa seyfede acar
+    ol- sirali list
+    ul-sirasiz list
+    table-- Cedvel
+    border-- qiraqlari
+    tr-- setir cedvelde
+    td-- cedvelin sutunu
+    th-- cedveli basliqi ucun istifade olunur
+    rowspan-- setirleri birlesdirir
+    colspan-- sutunlari birlesdirir
+    inline-- ise yazildiqi qeder
+    block--seyfeni tamamile tutura
+    div--yaxsi gornus vermek ucundur kontonyerdir
+    .-- qoyanda class dir
+    #--qoyanda id dir
+    form-- input type --yazib icerisinde yoxlamaq olar<< crtl space>> ile 
+    placeholder--inputun icinde yazir
+    checkbox id --- verilir
+    radio -- name eyni olmalidiki birini sece bilek 
+    select option -- secimlerden istifade
+    img-- yazanda sekil elave etmekdi
+    video-- video elave etmekdi
+    Iframe-- basqa web seyfeni oz websefende gostermek ucun 
+
+
+
+
+
+
+    
+-->
+    im
+    <div>
+      <form>
+        Adiniz:
+        <input type="text" placeholder="Istifadeci adi" /> Kodunuz:<input
+          type="password"
+          placeholder="Parol daxil edin!"
+        />
+        <input type="email" placeholder="Email" /> <br />
+        Istirahete getmek
+        <input type="checkbox" id="Istirahet" /> <br />
+        Evde Oturmaq <input type="checkbox" id="Ev" /><br />
+        <input type="datetime" /><br />
+        <input type="datetime-local" /> <br />
+        Oglan <input type="radio" name="cinsiyet" checked="true" /><br />
+        Qiz <input type="radio" name="cinsiyet" /><br />
+        <input type="color" /><br />
+        <input type="reset" /><br />
+        <input type="button" /><br />
+        <input type="search" value="Axtar" /><br />
+        Fayl sec<input type="file" /><br />
+        <input type="submit" value="Gonder" /><br />
+        <input type="range" /><br />
+        <br />
+
+        Mene Mektub <br />
+
+        <textarea name="Mesaj at" id="Gonder" cols="20" rows="10"></textarea
+        ><br />
+        Masini secin:
+        <select>
+          <option value="">BMW</option>
+          <option value="">KIA</option>
+          <option value="">LADA</option>
+        </select>
+      </form>
+      <div>
+        <h1>
+          <i><mark>Nicat Namazov</mark></i>
+        </h1>
+        <center>
+          <span>Lorem, ipsum dolor.</span>
+          <p>Lorem <br />ipsum dolor sit amet.</p>
+          <hr />
+          <p>Lorem ipsum dolor sit amet.</p>
+          <br />
+          <p>
+            Lorem
+            <b
+              ><i><mark>ipsum dolor</mark></i></b
+            >
+            sit amet.
+          </p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <img
+            src="./sekil/pexels-yurii-hlei-1545743.jpg"
+            alt="Masin sekili tapilmadi"
+            width="300px"
+            height="250px"
+          />
+        </center>
+      </div>
+      <h3>
+        Turboya getmek ucun<a href="https://turbo.az/" target="_blank"
+          >klik edin</a
+        >
+      </h3>
+      <a href="https://turbo.az/" target="_blank"
+        ><img src="./sekil/turbo icon.png" alt="" width="50px" height="50px"
+      /></a>
+      <div>
+        <ul>
+          <li>Mercedes</li>
+          <li>Bmw</li>
+          <li>Kia</li>
+        </ul>
+        <ol type="1">
+          <li>
+            Tayota
+            <ol type="I">
+              <li>Camry</li>
+              <li>Prius</li>
+            </ol>
+          </li>
+          <li>
+            Reno
+            <ol type="a">
+              <li>Megane</li>
+              <li>Sceninc</li>
+            </ol>
+          </li>
+          <li>Lada</li>
+        </ol>
+        <ol type="A">
+          <li>Tayota</li>
+          <li>Reno</li>
+          <li>
+            Lada
+            <ol>
+              <li>2115</li>
+              <li>2107</li>
+            </ol>
+          </li>
+        </ol>
+        <ol type="a">
+          <li>Tayota</li>
+          <li>Reno</li>
+          <li>Lada</li>
+        </ol>
+        <ol type="I">
+          <li>Tayota</li>
+          <li>Reno</li>
+          <li>Lada</li>
+        </ol>
+      </div>
+      <div>
+        <table border="1">
+          <tr>
+            <th colspan="4">TURBO.AZ</th>
+          </tr>
+          <tr>
+            <th>Model</th>
+            <th>Marka</th>
+            <th>Qiymeti</th>
+            <th>Ilkin odenis</th>
+          </tr>
+          <tr>
+            <td>BMW</td>
+            <td>F10</td>
+            <td>27000$</td>
+            <td rowspan="3">2500$</td>
+          </tr>
+          <tr>
+            <td>KIA</td>
+            <td>Rio</td>
+            <td>1000$</td>
+          </tr>
+          <tr>
+            <td>TAYOTA</td>
+            <td>Camry</td>
+            <td>23000$</td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <br />
+      <div style="width: 355px; background-color: beige">
+        <form>
+          <table>
+            <tr>
+              <td>Adiniz:</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Soyadiniz:</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td><input type="email" /></td>
+            </tr>
+            <tr>
+              <td>Parol:</td>
+              <td><input type="password" /></td>
+            </tr>
+            <tr>
+              <td>Cinsiyetiniz:</td>
+              <td>
+                Kisi: <input type="radio" name="radio" /> Qadin:<input
+                  type="radio"
+                  name="radio"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Dogum Tarixi:</td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <th colspan="2">Hobbi:</th>
+            </tr>
+            <tr>
+              <td>Gezmek:</td>
+              <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+              <td>Musiqi dinlemek:</td>
+              <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+              <td>Ders oxumaq:</td>
+              <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="file" /></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <textarea
+                  name=""
+                  id=""
+                  cols="45"
+                  rows="10"
+                  placeholder="Mesaj donderin"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>Oxudum raziyam: <input type="radio" name="radio" /></td>
+            </tr>
+            <tr>
+              <td>Oxudum razi deyilem: <input type="radio" name="radio" /></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="reset" />
+                <input type="submit" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <video
+        width="400px"
+        height="400px"
+        controls
+        src="./Video/Buccati.mp4"
+      ></video>
+      <iframe src="" frameborder="0"></iframe>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 
+        Listeler forma vermek ucun style icerisinde bunu yazmaq lazimdi
+         list-style-type:circle; = Bunu yazsaq yumru daire icerisi bos
+          list-style-type: square; = Belede kvadratlar seklinde
+           list-style-type: georgian; = Bele yazanda gurcu dilinde
+           list-style-type: none; =Bele olanda hecne yazmaz
+            list-style-type: symbols(); =Bele olanda dairenin icerisi dolu olar
+             list-style-type:decimal-leading-zero; =Bele yazanda qabaqinda 01 ile baslayir
+        */
+      .a {
+        list-style-type: decimal-leading-zero;
+      }
+      .b {
+        list-style-type: square;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="a">
+      <li>Gezmek</li>
+      <li>Ders Oxumaqq</li>
+      <li>Yatmaq</li>
+      <li>Oyun Oynamaq</li>
+    </ul>
+    <br />
+    <br />
+
+    <ol class="b">
+      <li>Gezmek</li>
+      <li>Ders Oxumaqq</li>
+      <li>Yatmaq</li>
+      <li>Oyun Oynamaq</li>
+    </ol>
+  </body>
+</html>

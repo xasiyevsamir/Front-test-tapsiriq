@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /*
+        *{
+            color: red;
+        }
+        */
+        /*
+        p{
+            color: blue;
+        }
+        */
+        /*
+        p,h2{
+            color: brown;
+        }
+       */
+      /* 
+       div p{
+        color: aquamarine;
+       }
+        */
+        /* div>p{
+            color: blueviolet;
+        } 
+        */
+        /* div+p{
+             color:blue 
+
+        } */
+        /* div~p{
+            color: green;
+        } */
+        /* div>p:first-child{
+            color: red;
+        } */
+        /* div>p:last-child{
+            color: blanchedalmond;
+        } */
+        /* div>nav>a:last-child{
+            color: blanchedalmond;
+        } */
+        /* div>nav>a:nth-child(2){
+            color: red;
+        } */
+        .qutu>ul>li:nth-child(2){
+            color: aqua;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+   
+    <!--
+        Selector-Secmek demekdir menasi
+        Selectorlar:
+        Class=. ile verilir hansina class demisen onu secer
+        ID=# ile verilir ve id lerin hamisini secer
+        *=Butun hamisina aid edir
+        p,h1-verilende ise-p-h1- hamisini secir yeniki hanisi yazmisansa ona aid olur
+        p=Yazanda ancaq -p-leri secir
+        p,h2=Desek onda hem -p- ni-hemdeki-h2-aid olacaq
+        div p= div ve p arali yazanda ancaq divlerin icerisindeki aid olar secer
+        div>p=Yazilanda ise valdeyini -div- olan -p- leri secer
+        div+p=Yazilanda divden colde  gelen p nin birincisini secir
+        div~p=Yazilanda divden colde gelen p lerin hamisina aid olar
+        div>p:first-child=Yazilanda divin icindeki p nin birincisini secer
+         div>p:last-child=Yazilanda divin icindeki p nin axrincisini secir
+         div>nav>a:last-child=Yazsan onda divin icindeki nav icindeki a nin axrincisini sec demekdir
+          div>nav>a:nth-child=Yazsaq onda divin icindeki nav onun icindeki a nin 2 cisini secer
+        .qutu>ul>li:nth-child=Bele yazanda ise div klasinin icindeki ul nin icindeki li nin 2 cisini sec demekdir
+
+
+    -->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>
+        <p>Gelecek Burada</p>
+        <h1>CODE ACADEMY</h1>
+        
+        <p>Gelecek Burada</p>
+        <p>Gelecek Burada</p>
+        <p>Gelecek Burada</p>
+        <p>Gelecek Burada</p>
+        <p>Gelecek Burada</p>
+        <p>Gelecek Burada</p>
+        <p>Gelecek Burada</p>
+        <nav>
+            <a href="">Lorem, ipsum.</a>
+         
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <p>Full Stack</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h2>Lorem, ipsum dolor.</h2>
+    <div class="qutu">
+        <p>Biz Gucluyuk</p>
+        <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+        </ul>
+        <p>Biz Gucluyuk</p>
+        <p>Biz Gucluyuk</p>
+    </div >
+    <p>Lorem, ipsum dolor.</p>
+   
+    <p>Lorem, ipsum dolor.</p>
+</body>
+</html>
