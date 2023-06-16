@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 
+        Layout display na duzelis etmek ucun istifade olunur
+        Bootstrap container classina olcu vermek ucun bele yazilir
+        <div class="container-sm">100% wide until small breakpoint</div>
+        <div class="container-md">100% wide until medium breakpoint</div>
+        <div class="container-lg">100% wide until large breakpoint</div>
+        <div class="container-xl">100% wide until extra large breakpoint</div>
+        <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+        Grid--web seyfeni divlerin yerlesdirilmesi yan yana ve yaxud ferqli formada olsun deye istifade olunur
+        Bootstrap--12 hissədən ibarət olur.Onu istəsən 3-3-6 kimi və ya 5-2-5- və ya 4-4-4 kimidə istifadə etmək olur
+        Bootstrapda arxa ren yazinin formasini deyismek ucun ve yaxud basqa isder gormek ucun dirnaqlarin icerisinde yazilir
+        Renglerden istifade etmek ucun bu kodlardan istifade etmek olar
+        $primary:       $blue;
+        $secondary:     $gray-600;
+        $success:       $green;
+        $info:          $cyan;
+        $warning:       $yellow;
+        $danger:        $red;
+        $light:         $gray-100;
+        $dark:          $gray-900;
+        justify-content-üfüqü şəkildə düzəliş etmək olur.
+        align-items- şaqülü şəkildə düzəliş etmək olur.
+       
+     -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluied">
+      <div class="row bg-warning" style="height: 200px">
+        <div
+          class="col-sm bg-primary text-light d-flex justify-content-center align-items-center"
+        >
+          AZƏR
+        </div>
+        <div
+          class="col-sm bg-danger text-light d-flex justify-content-center align-items-center"
+        >
+          BAY
+        </div>
+        <div
+          class="col-sm bg-success text-light d-flex justify-content-center align-items-center"
+        >
+          CAN
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="container-fluied bg-danger text-center text-light">
+      <h1>
+        /Code Academy
+        <p>Gələcək Burada</p>
+      </h1>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
